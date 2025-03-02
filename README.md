@@ -14,11 +14,16 @@ This project explores enhancing AES encryption with chaotic clocking to defend a
 1. Clone the repository to your local machine.
 
     ```bash
-    git clone [<repository-url>](https://github.com/manya-kj/advanced_AES_encryption
-)
+    git clone https://github.com/manya-kj/advanced_AES_encryption
     ```
 
-2. Run the encryption script.
+2. Install python libraries.
+
+    ```bash
+    pip install -r requirements.txt 
+    ```
+
+3. Run the encryption script.
 
     ```bash
     python aes_encryp.py
@@ -26,7 +31,7 @@ This project explores enhancing AES encryption with chaotic clocking to defend a
 
 ## Dependencies
 
-- Python 3.x
+- Python 3.11.2
 - NumPy
 - scikit-learn
 - matplotlib
